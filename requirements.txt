@@ -1,0 +1,9 @@
+streamlit
+PyMuPDF 
+json5
+statistics
+openai
+pillow
+numpy
+schedule
+tornado<=6.4.2
