@@ -57,5 +57,7 @@ uv venv myenv  # 创建名为 myenv 的虚拟环境
      ```bash
      streamlit run pdf.py
      ```
-
-docker run -p 8501:8501 -v $(pwd)/tmp:/app/tmp -v $(pwd)/output:/app/output pdf-toc-generator
+- **docker**：
+     ```bash
+    docker run -p 8501:8501 -v $(pwd)/tmp:/app/tmp -v $(pwd)/output:/app/output pdf-toc-generator
+     ```  
