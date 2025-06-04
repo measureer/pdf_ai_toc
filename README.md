@@ -3,11 +3,8 @@
 ---
 
 ### **步骤 1：安装 `uv`**
-通过 `pip` 或 `pipx` 安装（推荐使用 `pipx` 以避免全局依赖冲突）：
+通过 `pip` 安装
 ```bash
-# 使用 pipx 安装
-pipx install uv
-
 # 或使用 pip（全局安装）
 pip install uv
 ```
@@ -40,10 +37,6 @@ uv venv myenv  # 创建名为 myenv 的虚拟环境
 ---
 
 ### **步骤 4：使用 `uv` 管理依赖**
-- **安装单个包**：
-  ```bash
-  uv pip install requests  # 直接安装
-  ```
 - **批量安装依赖**：  
   1. 将依赖写入 `requirements.txt`。  
   2. 运行以下命令安装所有依赖：

@@ -1,0 +1,10 @@
+model/
+.idea/
+.github/
+.__pycache__/
+__pycache__/
+*.pyc
+*.pyo
+runs/
+data/
+*.png
